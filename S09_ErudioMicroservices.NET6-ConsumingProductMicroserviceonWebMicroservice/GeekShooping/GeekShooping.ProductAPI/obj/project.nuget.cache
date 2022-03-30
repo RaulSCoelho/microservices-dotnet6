@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ComTwq635Rat0GIVxKXI7Tg1MRpItt15w7H3PlradQIm/zE76HH02FmGzDyIhSb6MIadaK6fDYkPSiqRQ1XtPw==",
+  "dgSpecHash": "DfjmuzW6z4dO5i+TDv3CsLMrJ9ijH8H7vZOXwMJ5yvWzBz3dxBBAJqlmcewdn90O5LtvFgOz5ZgmRYKCMxL3UQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S08_ErudioMicroservices.NET6-OrganizingTheFirstMicrosservicesArchitecture\\GeekShooping\\GeekShooping.ProductAPI\\GeekShooping.ProductAPI.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S09_ErudioMicroservices.NET6-ConsumingProductMicroserviceonWebMicroservice\\GeekShooping\\GeekShooping.ProductAPI\\GeekShooping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estagiario\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

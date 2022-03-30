@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LkK881H1++oCv3BLyPpoSLPRQrL3cQr+V546fX0bt0+s4Hl3IWj2VInQ3IWk0UiqnnoqcV+OMb97q/pRZfS9kw==",
+  "dgSpecHash": "BXQrm8VEyvSq4qenhTHXx1TvxVf037ZHIckdsQ4me/pcLgsZcRZH1j3UGlgNHzDIPPHUn9nmuImEX+Id0hjLcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S08_ErudioMicroservices.NET6-OrganizingTheFirstMicrosservicesArchitecture\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S09_ErudioMicroservices.NET6-ConsumingProductMicroserviceonWebMicroservice\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
