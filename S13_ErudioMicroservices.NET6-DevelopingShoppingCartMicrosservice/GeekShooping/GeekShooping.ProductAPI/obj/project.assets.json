@@ -1412,9 +1412,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.ProductAPI\\GeekShooping.ProductAPI.csproj",
-      "projectName": "GeekShooping.ProductAPI",
-      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.ProductAPI\\GeekShooping.ProductAPI.csproj",
+      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+      "projectName": "GeekShopping.ProductAPI",
+      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.ProductAPI\\GeekShopping.ProductAPI.csproj",
       "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.ProductAPI\\obj\\",
       "projectStyle": "PackageReference",

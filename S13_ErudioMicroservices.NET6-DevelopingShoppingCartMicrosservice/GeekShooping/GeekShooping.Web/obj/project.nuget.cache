@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BAuNoQKZnZ7EbQ5W7/c65lcyX3Mp4nfelhhiiwtaPiT51XtEIJpCDjlZgb1y+elmhGRV1kHhLhWGiH+Gom3lZA==",
+  "dgSpecHash": "h2M2WEe+aWH20iL30IaF0l+1FPnroZhEO5qDlqoNlX0Ouk3TfdlytQ0ZDt27O+pqPDV/GxqNzjby1ibdJkoE8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.Web\\GeekShopping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

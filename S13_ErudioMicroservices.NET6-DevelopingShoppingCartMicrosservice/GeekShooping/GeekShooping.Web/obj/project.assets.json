@@ -1557,9 +1557,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
-      "projectName": "GeekShooping.Web",
-      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
+      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.Web\\GeekShopping.Web.csproj",
+      "projectName": "GeekShopping.Web",
+      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.Web\\GeekShopping.Web.csproj",
       "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShooping.Web\\obj\\",
       "projectStyle": "PackageReference",

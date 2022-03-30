@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace GeekShooping.ProductAPI.Migrations
+namespace GeekShopping.ProductAPI.Migrations
 {
     public partial class SeedProductDataTable : Migration
     {

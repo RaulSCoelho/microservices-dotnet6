@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using GeekShooping.ProductAPI.Data.ValueObjects;
-using GeekShooping.ProductAPI.Model;
+using GeekShopping.ProductAPI.Data.ValueObjects;
+using GeekShopping.ProductAPI.Model;
 
-namespace GeekShooping.ProductAPI.Config
+namespace GeekShopping.ProductAPI.Config
 {
     public class MappingConfig
     {
