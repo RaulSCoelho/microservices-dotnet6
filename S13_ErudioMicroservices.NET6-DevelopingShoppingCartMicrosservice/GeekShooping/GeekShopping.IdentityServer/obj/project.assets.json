@@ -1649,11 +1649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
       "projectName": "GeekShopping.IdentityServer",
-      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShopping.IdentityServer\\obj\\",
+      "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShopping\\GeekShopping.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

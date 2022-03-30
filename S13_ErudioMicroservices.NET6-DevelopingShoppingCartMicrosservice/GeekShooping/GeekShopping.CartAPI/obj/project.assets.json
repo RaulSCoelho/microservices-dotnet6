@@ -1412,11 +1412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
+      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShopping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
       "projectName": "GeekShopping.CartAPI",
-      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
+      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShopping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
       "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShooping\\GeekShopping.CartAPI\\obj\\",
+      "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S13_ErudioMicroservices.NET6-DevelopingShoppingCartMicrosservice\\GeekShopping\\GeekShopping.CartAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
