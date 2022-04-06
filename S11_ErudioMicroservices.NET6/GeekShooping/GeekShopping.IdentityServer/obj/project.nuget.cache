@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jpUcjXIrtYqEMEWqgLn2ewQjagmGZYxvYz/9LInmOxpSAArbiBKun7hPTBR2765+uE74nY96edxoHdmRpkZ+iw==",
+  "dgSpecHash": "U3bPc7BBKDzBjPTQv2/ibCsleCi/gEk25EZacPG3JAvsWWcZKYBy4htaMlyrNoAc9vXDt1cZudXUjy5b47gLrA==",
   "success": true,
   "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S11_ErudioMicroservices.NET6\\GeekShooping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CUtB6cD7bB7qHti7Az3XhA4baGGvGnapogABe08fxGQFgpo5grlmpgeca+zJQ/2cK8tEylaYc/kaIvtHrehtbQ==",
+  "dgSpecHash": "u/KbO2auDj9B9Yu9vXWBCxqKPohZLDbIwi7pOOd79gAHj4tRlfiTE/pzw+cgIJsFkxM5dW9tzMQiZ6a/vfZpJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S11_ErudioMicroservices.NET6\\GeekShooping\\GeekShooping.ProductAPI\\GeekShooping.ProductAPI.csproj",
   "expectedPackageFiles": [
