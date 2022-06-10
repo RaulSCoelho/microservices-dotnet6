@@ -1558,11 +1558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+      "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
       "projectName": "GeekShopping.Web",
-      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+      "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
       "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.Web\\obj\\",
+      "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

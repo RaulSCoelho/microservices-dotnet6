@@ -1,4 +1,6 @@
-﻿namespace GeekShopping.Web.Models
+﻿using System.Collections.Generic;
+
+namespace GeekShopping.Web.Models
 {
     public class CartViewModel
     {

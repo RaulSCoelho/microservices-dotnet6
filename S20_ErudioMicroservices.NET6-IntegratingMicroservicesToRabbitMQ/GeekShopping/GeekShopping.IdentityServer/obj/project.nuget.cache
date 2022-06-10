@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OcF8a1brfgopNsShcNkoQojAvbryHry2CQM0L/YOcvIEkiSdIaddW9lVz7UaSSPFpy7J/VLvueii7ZO3KNLTOw==",
+  "dgSpecHash": "ij6nv8QBvOMQFbFs561De7FgLsEgtWtKtdeipF2kXqhQXa6EHyDTR4zWMeL5a/yoEZxC16DY1WpRXN/AQYRrQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estagiario\\.nuget\\packages\\duende.identityserver\\6.0.4\\duende.identityserver.6.0.4.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\duende.identityserver.aspnetidentity\\6.0.4\\duende.identityserver.aspnetidentity.6.0.4.nupkg.sha512",

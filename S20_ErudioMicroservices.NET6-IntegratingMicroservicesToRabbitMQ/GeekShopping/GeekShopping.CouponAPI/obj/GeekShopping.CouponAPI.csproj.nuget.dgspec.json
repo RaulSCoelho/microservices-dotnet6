@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj": {}
+    "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj": {
+    "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj",
+        "projectUniqueName": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj",
         "projectName": "GeekShopping.CouponAPI",
-        "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj",
+        "projectPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj",
         "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S18_ErudioMicroservices.NET6-IntegratingCheckout\\GeekShopping\\GeekShopping.CouponAPI\\obj\\",
+        "outputPath": "C:\\Users\\estagiario\\Documents\\Cursos\\microservices-dotnet6\\S20_ErudioMicroservices.NET6-IntegratingMicroservicesToRabbitMQ\\GeekShopping\\GeekShopping.CouponAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

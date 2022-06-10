@@ -3,6 +3,11 @@ using GeekShopping.Web.Services.IServices;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace GeekShopping.Web.Controllers
 {
@@ -16,9 +21,9 @@ namespace GeekShopping.Web.Controllers
             ICartService cartService,
             ICouponService couponService)
         {
-            _productService = productService ?? throw new ArgumentNullException(nameof(productService));
-            _cartService = cartService ?? throw new ArgumentNullException(nameof(cartService));
-            _couponService = couponService ?? throw new ArgumentNullException(nameof(couponService));
+            _productService = productService;
+            _cartService = cartService;
+            _couponService = couponService;
         }
 
         [Authorize]
@@ -83,12 +88,18 @@ namespace GeekShopping.Web.Controllers
         public async Task<IActionResult> Checkout(CartViewModel model)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
-            
+
             var response = await _cartService.Checkout(model.CartHeader, token);
 
-            if (response != null)
+            if (response != null && response.GetType() == typeof(string))
+            {
+                TempData["Error"] = response;
+                return RedirectToAction(nameof(Checkout));
+            }
+            else if (response != null)
+            {
                 return RedirectToAction(nameof(Confirmation));
-
+            }
             return View(model);
         }
 

@@ -1,11 +1,15 @@
 ﻿using GeekShopping.CartAPI.Data.ValueObjects;
+using GeekShopping.MessageBus;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace GeekShopping.CartAPI.Messages
 {
-    public class CheckoutHeaderVO
+    public class CheckoutHeaderVO : BaseMessage
     {
-        public long Id { get; set; }
         public string UserId { get; set; }
         public string CouponCode { get; set; }
         public decimal PurchaseAmount { get; set; }
@@ -17,9 +21,9 @@ namespace GeekShopping.CartAPI.Messages
         public string Email { get; set; }
         public string CardNumber { get; set; }
         public string CVV { get; set; }
-        public string ExpiryMothYear { get; set; }
-
+        public string ExpiryMonthYear { get; set; }
         public int CartTotalItens { get; set; }
+
         [ValidateNever]
         public IEnumerable<CartDetailVO> CartDetails { get; set; }
     }

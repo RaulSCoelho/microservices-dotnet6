@@ -25,10 +25,14 @@ namespace GeekShopping.Web.Services
         public async Task<CartViewModel> AddItemToCart(CartViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
-            if (response.IsSuccessStatusCode)
+            try
+            {
+                var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
                 return await response.ReadContentAs<CartViewModel>();
-            else throw new Exception("Something went wrong when calling API");
+            }catch(Exception ex)
+            {
+                throw new Exception($"{ex}");
+            } 
         }
 
         public async Task<CartViewModel> UpdateCart(CartViewModel model, string token)
@@ -70,15 +74,16 @@ namespace GeekShopping.Web.Services
         public async Task<object> Checkout(CartHeaderViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            try
+            var response = await _client.PostAsJson($"{BasePath}/checkout", model);
+            if (response.IsSuccessStatusCode)
             {
-                var response = await _client.PostAsJson($"{BasePath}/checkout", model);
                 return await response.ReadContentAs<CartHeaderViewModel>();
-            }catch (Exception ex)
-            {
-                Console.WriteLine(ex.GetBaseException());
-                throw new Exception(ex.ToString());
             }
+            else if (response.StatusCode.ToString().Equals("PreconditionFailed"))
+            {
+                return "Coupon Price has changed, please confirm!";
+            }
+            else throw new Exception("Something went wrong when calling API");
         }
 
         public async Task<bool> ClearCart(string userId, string token)

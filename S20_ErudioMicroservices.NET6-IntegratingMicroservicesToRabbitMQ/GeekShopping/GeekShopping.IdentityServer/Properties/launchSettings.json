@@ -1,21 +1,21 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:11301",
-      "sslPort": 4435
+      "applicationUrl": "http://localhost:57662/",
+      "sslPort": 44328
     }
   },
   "profiles": {
     "GeekShopping.IdentityServer": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:4435;http://localhost:4436",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "https://localhost:4435;http://localhost:4436",
+      "dotnetRunMessages": true
     },
     "IIS Express": {
       "commandName": "IISExpress",

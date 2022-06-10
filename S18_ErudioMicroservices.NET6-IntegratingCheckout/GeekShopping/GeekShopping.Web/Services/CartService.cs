@@ -1,7 +1,13 @@
 ﻿using GeekShopping.Web.Models;
 using GeekShopping.Web.Services.IServices;
 using GeekShopping.Web.Utils;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Reflection;
+using System.Threading.Tasks;
 
 namespace GeekShopping.Web.Services
 {
@@ -70,15 +76,14 @@ namespace GeekShopping.Web.Services
         public async Task<object> Checkout(CartHeaderViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            try
+            var response = await _client.PostAsJson($"{BasePath}/checkout", model);
+            if (response.IsSuccessStatusCode)
             {
-                var response = await _client.PostAsJson($"{BasePath}/checkout", model);
                 return await response.ReadContentAs<CartHeaderViewModel>();
-            }catch (Exception ex)
-            {
-                Console.WriteLine(ex.GetBaseException());
-                throw new Exception(ex.ToString());
+            } else if (response.StatusCode.ToString().Equals("PreconditionFailed")) {
+                return "Coupon Price has changed, please confirm!";
             }
+            else throw new Exception("Something went wrong when calling API");
         }
 
         public async Task<bool> ClearCart(string userId, string token)
